@@ -1,40 +1,26 @@
 {
-    "title": "This is the title of the project",
+    "title": "Control System for Heliostat Solar Power Plants",
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
-            "github_profile":"#",
-            "linkedin_profile":"#"
+            "name": "NIROSHANA T.M.T.",
+            "email": "e14233@eng.pdn.ac.lk",
+            "eNumber": "E/14/233"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
-            "github_profile":"#",
-            "linkedin_profile":"#"
+            "name": "SENANAYAKA S.M.M.K.S ",
+            "email": "e14314@eng.pdn.ac.lk",
+            "eNumber": "E/14/314"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
-            "github_profile":"#",
-            "linkedin_profile":"#"
+            "name": "SENEVIRATHNE S.D.",
+            "email": "e14322@eng.pdn.ac.lk",
+            "eNumber": "E/14/322"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
-            "researchgate_profile":"#"
-        },
-        {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
-            "researchgate_profile":"#"
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk"
         }
     ],
     "tags": ["Web", "Embedded Systems"]
