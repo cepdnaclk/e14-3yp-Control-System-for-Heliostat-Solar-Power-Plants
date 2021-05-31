@@ -1,57 +1,52 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
+repository-name: e14-3yp-Control-System-for-Heliostat-Solar-Power-Plants
+title: Control System for Heliostat Solar Power Plants
+---
+# Control System for Heliostat Solar Power Plants
 
-# eYY-3yp-project-template
+---
+## Team
+-  E/14/233, NIROSHANA T.M.T., [e14233@eng.pdn.ac.lk](mailto:e14233@eng.pdn.ac.lk)
+-  E/14/314, SENANAYAKA S.M.M.K.S , [e14314@eng.pdn.ac.lk](mailto:e14314@eng.pdn.ac.lk)
+-  E/14/322, SENEVIRATHNE S.D., [e14322@eng.pdn.ac.lk](mailto:e14322@eng.pdn.ac.lk)
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Links](#links)
 
-### Enable GitHub Pages
+---
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+## Introduction
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+This is a system which focus sunlight into a one point in a solar tower and heat up the salts in it upto higher temperatures and then use them to store heat energy and produce steam and generate electricity. These systems make it possible to supply power even when the sun is down because of the stored heat energy. In these power plants, array of flat movable mirrors called heliostats are used to focus sunlight into a collector tower to heat salts and generate electricity through steam turbines. This is seen as  a viable solution for renewable energy.
 
-### Special Configurations
+Angle of heliostat is very critical in these solar power plants since the temperature of the tower will be significantly rely on the concentration of sunlight focused on it.
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+## Solution Architecture
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+CO321 - The position of the sun is calculated by the local server in the solar tower and will be broadcast to the network via WiFi interface. Then the other nodes (heliostats) receives data and adjust them according to their relative position and give the control signals to the motors to rotate the heliostats. Initial inclination of the heliostats will be sensed through a gyroscope. So after a successful turn a feedback signal will be sent to the local server which could be used to sense malfunctions.
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
+ 
 
-### Page Theme
+CO324 - Usually these farms has nearly 2000 heliostats pointing one point. So sending a feedback to local server could induce a network conjunction. Data from the local server will be sent to the centralized server in real time or in short intervals from many farms owned by the same company throughout the country. So the network traffic which could occur in the systems will be considered in the design and it will be designed to minimize the drawbacks and control the overall MO of the system. Also the monitoring system can be used for maintenance scheduling by getting status feedbacks from the equipments, which adds an important feature to the implementation from adding network aspect.
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+ 
+
+CO325 - The feedback data sent from local servers of the farms to the centralized server are sent as encrypted data as this implementation mainly focuses on R&D and the collected data is a valuable asset and they have a market value. Therefore, it needs to be encrypted and security becomes a key aspect in the implementation. Also the signals sent to each node is encrypted as outside parties can manipulate nodes to reduce the efficiency of the system by changing direction of the heliostats by giving wrong feedbacks.
+
+
+
+## Links
+
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Control-System-for-Heliostat-Solar-Power-Plants" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Control-System-for-Heliostat-Solar-Power-Plants/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
