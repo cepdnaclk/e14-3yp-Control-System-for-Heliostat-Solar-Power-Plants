@@ -8,9 +8,9 @@ title: Control System for Heliostat Solar Power Plants
 
 ---
 ## Team
--  E/14/233, NIROSHANA T.M.T., [e14233@eng.pdn.ac.lk](mailto:e14233@eng.pdn.ac.lk)
--  E/14/314, SENANAYAKA S.M.M.K.S , [e14314@eng.pdn.ac.lk](mailto:e14314@eng.pdn.ac.lk)
--  E/14/322, SENEVIRATHNE S.D., [e14322@eng.pdn.ac.lk](mailto:e14322@eng.pdn.ac.lk)
+-  E/14/233, NIROSHANA T.M.T., [e14233@ce.pdn.ac.lk](mailto:e14233@ce.pdn.ac.lk)
+-  E/14/314, SENANAYAKA S.M.M.K.S , [e14314@ce.pdn.ac.lk](mailto:e14314@ce.pdn.ac.lk)
+-  E/14/322, SENEVIRATHNE S.D., [e14322@ce.pdn.ac.lk](mailto:e14322@ce.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -44,7 +44,7 @@ CO325 - The feedback data sent from local servers of the farms to the centralize
 - <a href = "https://github.com/cepdnaclk/e14-3yp-Control-System-for-Heliostat-Solar-Power-Plants" target = "_blank"> Project Repository </a>
 - <a href = "https://cepdnaclk.github.io/e14-3yp-Control-System-for-Heliostat-Solar-Power-Plants/" target = "_blank">Project Page</a>
 - <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
-- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+- <a href = "https://ce.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)
